@@ -1,4 +1,4 @@
-package com.alexaksonov.kotlin_retrofit_test.ui.theme
+package com.alexaksonov.kotlin_retrofit_test.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
