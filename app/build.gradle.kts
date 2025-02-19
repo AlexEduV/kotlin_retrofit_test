@@ -57,6 +57,18 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    //retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+
+    //okhttp
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+
+    //Coroutines (for asynchronous networking)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+
+    //Coroutines Lifecycle scopes
+    implementation(libs.androidx.lifecycle.runtime.ktx.v262)
 }
